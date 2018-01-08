@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.m_lee.exclusivemotors.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/superbikes" />
+
+    <TextView
+        android:id="@+id/exclusive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Exclusive Motors Almere"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Verhuur   Onderhoud   Cleaning    Stalling"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/exclusive"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Hefbrug 12, 1332 AN Almere-Stad, Flevoland, Netherlands"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:paddingBottom="20sp"
+        android:textSize="25sp" />
+
+</RelativeLayout>
